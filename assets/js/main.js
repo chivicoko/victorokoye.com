@@ -34,6 +34,16 @@ $(function ($) {
       }
     });
 
+    $("#home .pagelink2").on("click", function (e) {
+      e.preventDefault();
+      if (e.target.parentNode.id = "g-p-f-h-2") {
+        $(".my-navbar .mynav-item").removeClass("active");
+        $(".my-navbar .mynav-item.contact").addClass("active");
+        $(".my-navbar .mynav-item .contact").addClass("active");
+        $(".contact").addClass("active");
+      }
+    });
+
     //Mixitup js
     $(".project-gallery").mixItUp();
 
