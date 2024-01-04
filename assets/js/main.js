@@ -3,14 +3,23 @@ $(function ($) {
 
   jQuery(document).ready(function () {
 
-    $(".toggle-icon").on("click", function () {
+    // Click event for the icon
+    $("#nav-icon3").click(function (event) {
+      event.stopPropagation();
+
+      $(this).toggleClass("open");
+
       $(".my-navbar").toggleClass("show");
       $(".mainmenu-area").toggleClass("show");
     });
 
-    $("#nav-icon3").click(function () {
-      $(this).toggleClass("open");
+    $(document).on("click", function () {
+      $("#nav-icon3").removeClass("open");
+
+      $(".my-navbar").removeClass("show");
+      $(".mainmenu-area").removeClass("show");
     });
+
 
     $(".my-navbar .mynav-item").on("click", function (e) {
       if (!$(this).hasClass("active")) {
@@ -163,3 +172,19 @@ document.addEventListener('click', e => {
     window.print();
   }
 });
+
+
+// document.addEventListener("click", function (event) {
+//   var navbar = document.querySelector('.my-navbar');
+//   var mainmenuArea = document.querySelector('.mainmenu-area');
+
+//   if (!navbar.contains(event.target) && !mainmenuArea.contains(event.target)) {
+//     if (navbar) {
+//       navbar.classList.remove("show");
+//     }
+
+//     if (mainmenuArea) {
+//       mainmenuArea.classList.remove("show");
+//     }
+//   }
+// });
