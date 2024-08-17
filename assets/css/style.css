@@ -2546,3 +2546,10 @@ CONTACT INFO AREA End
 ==================================================*/
 
 /* #D592FF */
+
+.limited-height-video {
+  max-height: 400px;
+  width: 100%;
+  object-fit: contain;
+  background-color: black;
+}
