@@ -315,8 +315,8 @@
       height: var(--image_height);
     }
     .gallery-item-content .item-thumbnail .content-overlay {
-        /* top: calc(var(--image_height) - 18%); */
-        top: 83%;
+        top: calc(var(--image_height) - 30%);
+        /* top: 75%; */
         left: 7.5%;
         width: 85%;
         height: fit-content;
