@@ -1662,7 +1662,7 @@ select:focus {
   opacity: 0;
 }
 
-#eduandex .title {
+#resumeContainer .title {
   border-bottom: 1px solid #626a8a;
   padding-bottom: 13px;
   font-size: 21px;
@@ -1670,7 +1670,7 @@ select:focus {
   margin-bottom: 30px;
 }
 
-#eduandex .title:before {
+#resumeContainer .title:before {
   position: absolute;
   content: "";
   width: 110px;
@@ -1679,7 +1679,7 @@ select:focus {
   bottom: -2px;
 }
 
-#eduandex .education-list .single-education {
+#resumeContainer .education-list .single-education {
   border-left: 3px solid #626a8a;
   margin-bottom: 30px;
   padding-left: 20px;
@@ -1691,11 +1691,11 @@ select:focus {
   transition: all .3s;
 }
 
-#eduandex .education-list .single-education:hover {
+#resumeContainer .education-list .single-education:hover {
   border-left: 3px solid linear-gradient(-65deg, #B60F46 39%, #D592FF 96%);
 }
 
-#eduandex .education-list .single-education::before {
+#resumeContainer .education-list .single-education::before {
   position: absolute;
   content: "";
   top: -1px;
@@ -1707,7 +1707,7 @@ select:focus {
   border: 2px solid linear-gradient(-65deg, #B60F46 39%, #D592FF 96%);
 }
 
-#eduandex .education-list .single-education::after {
+#resumeContainer .education-list .single-education::after {
   position: absolute;
   content: "";
   bottom: -1px;
@@ -1719,35 +1719,35 @@ select:focus {
   border: 2px solid linear-gradient(-65deg, #B60F46 39%, #D592FF 96%);
 }
 
-#eduandex .education-list .single-education:last-child {
+#resumeContainer .education-list .single-education:last-child {
   margin-bottom: 0px;
 }
 
-#eduandex .education-list .single-education .collage-name {
+#resumeContainer .education-list .single-education .collage-name {
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 4px;
 }
 
-#eduandex .education-list .single-education .degree {
+#resumeContainer .education-list .single-education .degree {
   font-size: 15px;
   margin-bottom: 7px;
   color: #94a2c6;
   font-weight: 600;
 }
 
-#eduandex .education-list .single-education .year {
+#resumeContainer .education-list .single-education .year {
   margin-left: 20px;
   position: relative;
 }
 
-#eduandex .education-list .single-education .year::before {
+#resumeContainer .education-list .single-education .year::before {
   position: absolute;
   content: "|";
   left: -14px;
 }
 
-#eduandex .education-list .single-education .description p {
+#resumeContainer .education-list .single-education .description p {
   margin-bottom: 0px;
 }
 
